@@ -7,4 +7,4 @@ def fanction1 ( x:int ):
         
 
 
-fanction1(10)
+fanction1(5)
