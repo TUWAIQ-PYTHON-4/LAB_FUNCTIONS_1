@@ -16,9 +16,9 @@ def pyramidal(number):
     this method will print numbers like shape pyramidal 
     '''
     for first_loop in range(1,number+1):
-        num=number
-        for secand_loop in range(number,first_loop-1,-1):
+        for secand_loop in range(number,0,-1):
             print(secand_loop, end=' ')
+        number -=1
         print()
 pyramidal(5)
 print(pyramidal.__doc__)
