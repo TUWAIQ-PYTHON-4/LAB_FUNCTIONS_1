@@ -10,3 +10,4 @@ def print_trangle(num: int = 5) -> str:
         str_num = ''
 
 print_trangle()
+print(print_trangle.__doc__)
