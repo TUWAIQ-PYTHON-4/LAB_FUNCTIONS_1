@@ -7,8 +7,9 @@ def print_full_numbers(number:int=5):
     """
 
     for i in range(0,number):
-        for j in range(number, i,-1):
+        for j in range(number, 0,-1):
             print(j, end=" ")
+        number -=1
         
         print("")
 
