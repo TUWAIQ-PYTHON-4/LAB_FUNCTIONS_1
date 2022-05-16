@@ -1,5 +1,3 @@
-
-
 def hierarchical_pattern(number:int):
  ''' function that takes 1 parameter of type int , 
  then it prints out the result hirarchical pattern.
